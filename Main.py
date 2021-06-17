@@ -6,7 +6,7 @@
 
 # Import required packages
 from os import path
-from UserInterface import *
+from userInterface import *
 
 
 def retrieve_max_id():
@@ -80,7 +80,7 @@ def main():
     """
     Main program:
     Takes and validates user input for primary menu item;
-    Interacts with UserInterface class
+    Interacts with userInterface class
     :return: None
     """
     # Loop to keep displaying primary menu item unless user wants to terminate session
@@ -99,7 +99,7 @@ def main():
             continue
 
         # Create object
-        user_interface_object = UserInterface(user_choice)
+        user_interface_object = userInterface(user_choice)
 
         # Call instance method to pass control to class
         user_interface_object.handle_user_input()
