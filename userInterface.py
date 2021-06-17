@@ -21,7 +21,7 @@ pd.set_option('display.max_columns', 10)
 id_max = retrieve_max_id()
 
 
-class UserInterface:
+class userInterface:
     """
     Represents user interface
 
